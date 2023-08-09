@@ -124,7 +124,7 @@ main{
 section{
   width: 100%;
 }
-.sub_01{
+#sub_01{
   position: relative;
   width: 100%;
   height: 800px;
@@ -249,7 +249,7 @@ section{
 
 /* sub_02_software */
 
-.sub_02{
+#sub_02{
   background-color: #121212;
   height: 1300px;
 }
@@ -369,7 +369,7 @@ section{
 
 /* sub_03_mb */
 
-.sub_03{
+#sub_03{
   background-color: #353535;
   height: 1200px;
 }
@@ -447,7 +447,7 @@ section{
   width: 220px;
   height: 60px;
   right: -100px;
-  top: 30px;
+  top: 35px;
 }
 .sub_03_logo::after{
   background-image: url(../image/logo_google-play.png);
@@ -455,7 +455,7 @@ section{
   width: 220px;
   height: 80px;
   right: -100px;
-  top: 105px;
+  top: 100px;
 }
 
 .sub_03_logo:hover::before,
@@ -478,7 +478,7 @@ section{
 
 /* sub_04_News */
 
-.sub_04{
+#sub_04{
   background-color: #B9B9B9;
   height: 1300px;
 }
@@ -566,7 +566,7 @@ section{
 
 /* Character */
 
-.sub_05{
+#sub_05{
   background-color: #121212;
   height: 1400px;
 }
@@ -653,7 +653,7 @@ section{
 
 /* service */
 
-.sub_06{
+#sub_06{
   background-color: #ffffff;
   height: 900px;
 }
@@ -732,7 +732,7 @@ section{
 
 /* 스토어 버튼 */
 
-.sub_07{
+#sub_07{
   background-color: #e40520;
   height: 120px;
   overflow: hidden;
