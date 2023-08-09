@@ -128,18 +128,16 @@ section{
   position: relative;
   width: 100%;
   height: 800px;
-  background-color: #e40520;
-  z-index: -1;
+  background-color: #272E32;
 }
 .sub_01::before{
   position: absolute;
   content: '';
   width: 50%;
   top: 0;
-  right: 0;
+  left: 0;
   height: inherit;
-  background-color: #272E32;
-  z-index: -1;
+  background-color: #e40520;
 }
 .sub_01::after{
   position: absolute;
@@ -247,9 +245,7 @@ section{
 
 .button span:hover::before{width: 120%;}
 
-.button img{
-  margin-right: 10px;
-}
+.button img{margin-right: 10px;}
 
 /* sub_02_software */
 
@@ -309,8 +305,6 @@ section{
   right: -350px;
   animation: box 2s cubic-bezier(1, .04, 0, .46) infinite;
 }
-
-
 
 .sub_02_software ul li{
   position: relative;
@@ -377,7 +371,7 @@ section{
 
 .sub_03{
   background-color: #353535;
-  height: 1000px;
+  height: 1200px;
 }
 .sub_03_mb{
   width: 1200px;
@@ -389,7 +383,7 @@ section{
 .sub_03_mb h2{
   font-size: 70px;
   color: #fff;
-  margin: 100px 20px 100px;
+  margin: 100px 20px;
   text-align: right;
 }
 
@@ -411,7 +405,7 @@ section{
 }
 .sub_03_mb ul li:nth-child(1){
   top: 40%;
-  left: 20%;
+  left: 10%;
   transform: translate(-50%,-50%);
 }
 .sub_03_mb ul li:nth-child(2){
@@ -421,17 +415,17 @@ section{
 }
 .sub_03_mb ul li:nth-child(3){
   top: 40%;
-  left: 80%;
+  left: 90%;
   transform: translate(-50%,-50%);
 }
 .sub_03_mb ul li:nth-child(4){
   top: 70%;
-  left: 35%;
+  left: 30%;
   transform: translate(-50%,-50%);
 }
 .sub_03_mb ul li:nth-child(5){
   top: 70%;
-  left: 65%;
+  left: 70%;
   transform: translate(-50%,-50%);
 }
 
@@ -449,24 +443,24 @@ section{
 }
 .sub_03_logo::before{
   background-image: url(../image/logo_App_Store_.png);
-  background-size: 300px 80px;
-  width: 300px;
-  height: 80px;
-  right: -200px;
-  top: 10px;
+  background-size: 220px 60px;
+  width: 220px;
+  height: 60px;
+  right: -100px;
+  top: 30px;
 }
 .sub_03_logo::after{
   background-image: url(../image/logo_google-play.png);
-  background-size: 300px 110px;
-  width: 300px;
-  height: 110px;
-  right: -200px;
-  top: 90px;
+  background-size: 220px 80px;
+  width: 220px;
+  height: 80px;
+  right: -100px;
+  top: 105px;
 }
 
 .sub_03_logo:hover::before,
 .sub_03_logo:hover::after{
-  right: -320px;
+  right: -240px;
   opacity: 1;
 }
 
@@ -680,7 +674,7 @@ section{
 
 .sub_06_service ul{
   width: 900px;
-  height: inherit;
+  height: 500px;
   margin: auto;
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -799,7 +793,7 @@ footer{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
 }
 .footer_bg p{
   line-height: 15px;
